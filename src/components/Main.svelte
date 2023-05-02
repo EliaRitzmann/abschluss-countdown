@@ -7,7 +7,7 @@
   let seconds = "00";
 
   const countdown = () => {
-    const endDate = new Date("May 5, 2023 14:50:00").getTime();
+    const endDate = new Date("May 17, 2023 14:50:00").getTime();
     const now = new Date().getTime();
     const distance = endDate - now;
 
